@@ -1,6 +1,6 @@
 ## 📊 ERD (Entity Relationship Diagram)
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/2394f538-51b8-40ca-b199-170bbb274f13" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/2394f538-51b8-40ca-b199-170bbb274f13" />
 
 
 ---
