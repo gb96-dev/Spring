@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Getter
 @NoArgsConstructor
-@Table(name = "users") // MySQL에서 'user'는 예약어일 수 있어 'users'로 테이블명 지정
+@Table(name = "users")
 public class User extends BaseEntity {
 
     @Id
@@ -20,9 +20,13 @@ public class User extends BaseEntity {
     @Column(nullable = false)
     private String email;
 
-    public User(String username, String email) {
+    @Column(nullable = false) // Lv 3: 비밀번호 추가
+    private String password;
+
+    public User(String username, String email, String password) {
         this.username = username;
         this.email = email;
+        this.password = password;
     }
 
     public void update(String username, String email) {
